@@ -43,4 +43,69 @@ elifasterdownloader https://youtu.be/X5t8rA8ik2k
 Note: If you want to uninstall it, simply run:
 
 sudo rm /usr/local/bin/elifasterdownloader
+#################################################################################### **********##########################################################################
+
+---
+
+## 🪟 Windows Installation Guide
+
+Follow these steps to install and run **Elifaster Downloader** on Windows.
+
+---
+
+### 🔧 Step 1: Install Python
+
+Download and install Python from:  
+https://www.python.org/downloads/
+
+During installation, make sure to check:
+- **“Add Python to PATH”**
+
+---
+
+### 🔧 Step 2: Install `yt-dlp`
+
+Open **Command Prompt (cmd)** or **PowerShell** and run:
+
+```bash
+pip install yt-dlp
+
+🔧 Step 3: Download the Script
+
+    1. Go to the GitHub repo:
+    https://github.com/Elishacker/VideoDownloader_v1.0
+
+    2. Click the green “Code” button → Download ZIP.
+
+    3. Extract the ZIP to a folder
+    
+🔧 Step 4: Rename and Create a Global Command (Optional)
+
+   1. To run the script easily from any directory:
+
+   2. Rename the script file to: elifasterdownloader.py
+   
+   3. Open a PowerShell window and add a system-wide alias:
+   New-Alias -Name elifasterdownloader -Value "C \ElifasterDownloader\elifasterdownloader.py"
+   
+   To make it permanent, add that line to your PowerShell profile:
+
+    notepad $PROFILE
+    
+    🚀 How to Use
+
+     Now you can run:
+
+elifasterdownloader <video-link>
+
+
+Example:
+
+elifasterdownloader https://youtu.be/X5t8rA8ik2k
+
+/home/r3dh4t/3lishack3r/Elifaster/Elifaster Inforsec Brand Kit/Instagram Post.jpg
+
+
+
+
 
