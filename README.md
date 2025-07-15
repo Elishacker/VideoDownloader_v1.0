@@ -38,11 +38,18 @@ elifasterdownloader <video-link>
 Example:
 
 elifasterdownloader https://youtu.be/X5t8rA8ik2k
-
+OR
+elifasterdownloader "https://youtu.be/X5t8rA8ik2k"
 
 Note: If you want to uninstall it, simply run:
 
 sudo rm /usr/local/bin/elifasterdownloader
+
+NOTES: 
+USE QUOTE "" when the Url it has '&'
+The & is interpreted by zsh as a background operator, which causes a syntax error unless escaped or quoted.
+
+
 #################################################################################### **********##########################################################################
 
 ---
@@ -102,8 +109,12 @@ elifasterdownloader <video-link>
 Example:
 
 elifasterdownloader https://youtu.be/X5t8rA8ik2k
+OR
+elifasterdownloader "https://youtu.be/X5t8rA8ik2k"
 
-/home/r3dh4t/3lishack3r/Elifaster/Elifaster Inforsec Brand Kit/Instagram Post.jpg
+NOTES: 
+USE QUOTE "" when the Url it has '&'
+The & is interpreted by zsh as a background operator, which causes a syntax error unless escaped or quoted.
 
 
 
