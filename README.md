@@ -22,7 +22,7 @@ chmod +x elifasterdownloader.py
 
 To use the downloader from anywhere in your terminal, move it to /usr/local/bin:
 
-sudo mv elifasterdownloader /usr/local/bin/
+sudo mv elifasterdownloader.py /usr/local/bin/elifasterdownloader
 
 ### Step 4: Install yt-dlp (if not installed)
 Option A: Install via package manager (Debian/Ubuntu)
